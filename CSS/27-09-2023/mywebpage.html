@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+        .hiroimage {
+            position: relative;
+            background:linear-gradient(white black) ;
+        }
+        .childdiv{
+            position: absolute;
+            top: 400px;
+            width: 100%;
+            text-align: center;
+            padding: 5px;
+
+        }
+        img
+        {
+            /* position: absolute; */
+            height: 100%;
+            width: 100%;
+            filter: brightness(100%);
+            /* background: linear-gradient(blue); */
+            z-index: 1;
+            color-;
+        }
+        /* .hiroimage:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: linear-gradient(to right, #0a090976, #ec658079);
+            z-index: -1;
+        } */
+        h1{
+            color: beige;
+            padding-bottom: 15px;
+            text-shadow: 15px 0px 15px white;
+           }
+
+        p{
+            color: aqua;
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+        button{
+            height: 40px;
+            width: 150px;
+            /* background-color: blueviolet; */
+            background-color: transparent;
+            border-color: azure;
+            border: 2x solid white;
+            border-radius: 10px;
+            cursor: pointer;                
+        }
+        button:hover {
+            background-color: aquamarine;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hiroimage">
+        <div>     
+           <img src="tree.jpg" alt="">
+        </div>
+        <div class="childdiv">
+            <h1>My Awesome Webside</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, tempore.</p>
+            <button> Go ahead </button>
+        </div>
+        
+
+    </div>
+</body>
+</html>
